@@ -14,8 +14,9 @@ editor_options:
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
 # Let's add some links
-I often use [Google](google.com) to do data science.
+I often use [Google](https://www.google.com) to do data science.
 
 # Let's add an image
 here's a neat figure I created:
 ![](images/weekly_prev_plot.png)
+
