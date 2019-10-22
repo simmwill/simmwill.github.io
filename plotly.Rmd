@@ -47,3 +47,10 @@ nyc_airbnb %>%
           colors = "Set2")
 ```
 
+```{r}
+nyc_airbnb %>% # can't just use ggplot options similar - have to create a new dataset with counts
+  count(neighbourhood) %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
+```
+
