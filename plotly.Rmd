@@ -2,9 +2,12 @@
 title: "Plotly Examples"
 author: "Will Simmons"
 date: "10/22/2019"
-output: html_document
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
 editor_options: 
-  code_folding: true
   chunk_output_type: console
 ---
 
@@ -54,4 +57,32 @@ nyc_airbnb %>% # can't just use ggplot options similar - have to create a new da
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
   plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
 ```
+
+## ggplotly
+```{r}
+scatter_ggplot = 
+  nyc_airbnb %>%
+  ggplot(aes(x = lat, y = long, color = price)) +
+  geom_point(alpha = 0.25) +
+  scale_color_viridis() +
+  coord_cartesian() +
+  theme_classic()
+
+ggplotly(scatter_ggplot)
+```
+
+```{r}
+box_ggplot = 
+  nyc_airbnb %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
+  ggplot(aes(x = neighbourhood, y = price, fill = neighbourhood)) +
+  geom_boxplot() +
+  theme_classic() + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplotly(box_ggplot)
+```
+
+
+
 
