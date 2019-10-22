@@ -1,5 +1,5 @@
 ---
-title: "plotly"
+title: "Plotly"
 author: "Will Simmons"
 date: "10/22/2019"
 output: html_document
@@ -36,7 +36,14 @@ nyc_airbnb =
 nyc_airbnb %>%
   mutate(text_label = str_c("Price: $", price, '\nRating: ', rating)) %>% 
   plot_ly(
-    x = ~lat, y = ~long, type = "scatter", mode = "markers",
+    x = ~lat, y = ~long, type = "scatter", mode = "markers", # mode = markers tells not to connect dots
     color = ~price, text = ~text_label, alpha = 0.5)
+```
+
+```{r}
+nyc_airbnb %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
+  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
+          colors = "Set2")
 ```
 
