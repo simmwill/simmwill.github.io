@@ -1,4 +1,4 @@
-name: "Yay internet!"
+name: "Will Simmons"
 output_dir: "."
 navbar:
   title: "Home"
@@ -17,4 +17,4 @@ navbar:
       href: http://github.com/simmwill/
 output:
   html_document:
-    theme: flatly
+    theme: lux

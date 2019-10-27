@@ -67,3 +67,12 @@ nyc_airbnb %>% # can't just use ggplot options similar - have to create a new da
   plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
 ```
 
+In order to get this dashboard to work within a Github website, we have two options:
+
+  * Rebuild website everytime to resolve the issue
+  * OR, use the code below:
+  
+```{r}
+rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
+```
+
