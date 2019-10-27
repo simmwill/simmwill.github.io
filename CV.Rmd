@@ -1,0 +1,84 @@
+---
+title: "WILL SIMMONS"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+&nbsp;
+&nbsp;
+
+### *EDUCATION*
+**Columbia University.** Masters of Public Health, Epidemiology and Applied Biostatistics. *Anticipated matriculation: May 2020.*
+
+*Relevant coursework:* Epidemiology I-III, Regression Methods, Categorical Data Analysis.  
+*Honors:* Wyman Scholar.
+
+**Baylor University.** Bachelor of Science, Neuroscience. *May 2015.*
+
+*Relevant coursework:* Neuropharmacology, Neuroanatomy, Biostatistics, Multilevel Modeling.  
+*Honors:* Summa Cum Laude, Phi Beta Kappa, Regent's Gold Scholar.
+
+&nbsp;
+
+### *RESEARCH EXPERIENCE*
+**International Research Institute for Climate and Society**  
+**Columbia University Earth Institute**  
+*Research Assistant*
+
+**Baylor University**  
+*Research Assistant*
+
+&nbsp;
+
+### *PROFESSIONAL & TEACHING EXPERIENCE*
+**Columbia University Mailman School of Public Health**  
+*Graduate Teaching Assistant*
+
+**Hawaiʻi Alliance for Community-Based Economic Development**  
+*Community Food Systems Specialist*
+
+**United States Agency for International Development**  
+*Country Development Intern, Africa Bureau*
+
+&nbsp;
+
+### *PUBLICATIONS*
+Gorfinkel L, **Simmons W**, Stohl M, Hasin D (2019). *Trends in depression and past-month cannabis use in US adults: A cross-sectional study based on NHANES 2005-2016.* Manuscript submitted for publication to *Drug and Alcohol Dependence.*
+
+&nbsp;
+
+### *PRESENTATIONS*
+*Exploring associations between climate variation and anthropometric indicators of under-5 nutritional status in Bangladesh, 1990-2006.* Lead researcher and invited presenter, Master’s Student Day, Columbia University Mailman School of Public Health, New York, NY. October 2019.
+
+*Climate, nutrition, and health in Bangladesh: Exploring associations between climate variability and childhood anthropometry, 1990-2006.* Lead researcher and invited presenter, School of International and Public Affairs, Columbia University, New York, NY. September 2019.
+
+*Food and Public Health: Bridging Research and Practice.* Moderator, panel discussion, Columbia University Mailman School of Public Health, New York, NY. April 2019.
+
+*Clean water, food security, or protein? A study of growth among children in rural western Kenya.* Lead researcher and contributor to presentation, Unite for Sight Global Health & Innovation Conference, Yale University, New Haven, CT. April 2016.
+
+&nbsp;
+
+
+### *SKILLS*
+
+**Programming**:  
+
+  * R
+  * SAS
+  * SQL
+  * MATLAB (basic)
+  * QGIS (basic)
+  
+**Applications**:
+
+  * Microsoft Access
+  * MySQL
+  * G Suite
+  
+**Other**:
+
+  * Nonprofit and Federal Grantwriting

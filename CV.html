@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -250,6 +253,63 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +317,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -326,10 +396,75 @@ $(document).ready(function () {
 </div>
 
 
-<p>I’m currently a master’s candidate in Epidemiology and Applied Biostatistics at the Columbia University Mailman School of Public Health. My current research focuses on using epidemiological and biostatistical methods to answer questions related to environmental health.</p>
+<p>   </p>
+<div id="education" class="section level3">
+<h3><em>EDUCATION</em></h3>
+<p><strong>Columbia University.</strong> Masters of Public Health, Epidemiology and Applied Biostatistics. <em>Anticipated matriculation: May 2020.</em></p>
+<p><em>Relevant coursework:</em> Epidemiology I-III, Regression Methods, Categorical Data Analysis.<br />
+<em>Honors:</em> Wyman Scholar.</p>
+<p><strong>Baylor University.</strong> Bachelor of Science, Neuroscience. <em>May 2015.</em></p>
+<p><em>Relevant coursework:</em> Neuropharmacology, Neuroanatomy, Biostatistics, Multilevel Modeling.<br />
+<em>Honors:</em> Summa Cum Laude, Phi Beta Kappa, Regent’s Gold Scholar.</p>
+<p> </p>
+</div>
+<div id="research-experience" class="section level3">
+<h3><em>RESEARCH EXPERIENCE</em></h3>
+<p><strong>International Research Institute for Climate and Society</strong><br />
+<strong>Columbia University Earth Institute</strong><br />
+<em>Research Assistant</em></p>
+<p><strong>Baylor University</strong><br />
+<em>Research Assistant</em></p>
+<p> </p>
+</div>
+<div id="professional-teaching-experience" class="section level3">
+<h3><em>PROFESSIONAL &amp; TEACHING EXPERIENCE</em></h3>
+<p><strong>Columbia University Mailman School of Public Health</strong><br />
+<em>Graduate Teaching Assistant</em></p>
+<p><strong>Hawaiʻi Alliance for Community-Based Economic Development</strong><br />
+<em>Community Food Systems Specialist</em></p>
+<p><strong>United States Agency for International Development</strong><br />
+<em>Country Development Intern, Africa Bureau</em></p>
+<p> </p>
+</div>
+<div id="publications" class="section level3">
+<h3><em>PUBLICATIONS</em></h3>
+<p>Gorfinkel L, <strong>Simmons W</strong>, Stohl M, Hasin D (2019). <em>Trends in depression and past-month cannabis use in US adults: A cross-sectional study based on NHANES 2005-2016.</em> Manuscript submitted for publication to <em>Drug and Alcohol Dependence.</em></p>
+<p> </p>
+</div>
+<div id="presentations" class="section level3">
+<h3><em>PRESENTATIONS</em></h3>
+<p><em>Exploring associations between climate variation and anthropometric indicators of under-5 nutritional status in Bangladesh, 1990-2006.</em> Lead researcher and invited presenter, Master’s Student Day, Columbia University Mailman School of Public Health, New York, NY. October 2019.</p>
+<p><em>Climate, nutrition, and health in Bangladesh: Exploring associations between climate variability and childhood anthropometry, 1990-2006.</em> Lead researcher and invited presenter, School of International and Public Affairs, Columbia University, New York, NY. September 2019.</p>
+<p><em>Food and Public Health: Bridging Research and Practice.</em> Moderator, panel discussion, Columbia University Mailman School of Public Health, New York, NY. April 2019.</p>
+<p><em>Clean water, food security, or protein? A study of growth among children in rural western Kenya.</em> Lead researcher and contributor to presentation, Unite for Sight Global Health &amp; Innovation Conference, Yale University, New Haven, CT. April 2016.</p>
+<p> </p>
+</div>
+<div id="skills" class="section level3">
+<h3><em>SKILLS</em></h3>
+<p><strong>Programming</strong>:</p>
+<ul>
+<li>R</li>
+<li>SAS</li>
+<li>SQL</li>
+<li>MATLAB (basic)</li>
+<li>QGIS (basic)</li>
+</ul>
+<p><strong>Applications</strong>:</p>
+<ul>
+<li>Microsoft Access</li>
+<li>MySQL</li>
+<li>G Suite</li>
+</ul>
+<p><strong>Other</strong>:</p>
+<ul>
+<li>Nonprofit and Federal Grantwriting</li>
+</ul>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -362,6 +497,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

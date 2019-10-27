@@ -1,10 +1,10 @@
 name: "Will Simmons"
 output_dir: "."
 navbar:
-  title: "[ws]"
+  title: "[WS]"
   right:
-    - text: "About"
-      href: about.html
+    - text: "CV"
+      href: cv.html
     - text: "Examples"
       menu:
       - text: "Plotly"
@@ -13,8 +13,10 @@ navbar:
         href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<wes2121@columbia.edu>
+    - icon: fa-linkedin fa-lg
+      href: http://linkedin.com/in/simmonswill
     - icon: fa-github fa-lg
       href: http://github.com/simmwill/
 output:
   html_document:
-    theme: sandstone
+    theme: yeti
