@@ -1,23 +1,14 @@
 ---
-title: "My awesome website"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
+title: "WILL SIMMONS"
+output: html_document
+    # toc: true
+    # toc_float: true
 editor_options: 
   chunk_output_type: console
+  
 ---
 
-# This is Will's awesome website
 
-You can learn about me [here](about.html).
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-# Let's add some links
-I often use [Google](https://www.google.com) to do data science.
-
-# Let's add an image
-here's a neat figure I created:
-![](images/weekly_prev_plot.png)
+I'm currently a master's candidate in Epidemiology and Applied Biostatistics at the Columbia University Mailman School of Public Health. My current research focuses on using epidemiological and biostatistical methods to answer questions related to environmental health.
 

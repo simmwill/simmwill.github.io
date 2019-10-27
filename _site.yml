@@ -1,7 +1,7 @@
 name: "Will Simmons"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "[ws]"
   right:
     - text: "About"
       href: about.html
