@@ -10,4 +10,4 @@ editor_options:
 
 # Will
 
-this is me!
+This page is currently located in .gitignore 

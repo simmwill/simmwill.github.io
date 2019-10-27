@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+about.Rmd
+about.html
+dashboard.Rmd
+dashboard.html

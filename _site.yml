@@ -1,7 +1,7 @@
 name: "Will Simmons"
 output_dir: "."
 navbar:
-  title: "[WS]"
+  title: "[ws]"
   right:
     - text: "CV"
       href: cv.html
@@ -9,8 +9,8 @@ navbar:
       menu:
       - text: "Plotly"
         href: plotly.html
-      - text: "Dashboard"
-        href: dashboard.html
+      - text: "Dashboard Example"
+        href: dashboard_example.html
     - icon: fa-envelope fa-lg
       href: mailto:<wes2121@columbia.edu>
     - icon: fa-linkedin fa-lg

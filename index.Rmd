@@ -8,7 +8,11 @@ editor_options:
   
 ---
 
+<center>
 
+<br><img src="images/will_cropped.jpg" alt="will" style="width:65%" class="center"><br>
 
-I'm currently a master's candidate in Epidemiology and Applied Biostatistics at the Columbia University Mailman School of Public Health. My current research focuses on using epidemiological and biostatistical methods to answer questions related to environmental health.
+</center>
+
+I'm currently a master's candidate in Epidemiology and Applied Biostatistics at the Columbia University Mailman School of Public Health. My research with Columbia's [IRI](https://iri.columbia.edu/) focuses on using epidemiological and biostatistical methods to answer questions related to environmental health.
 
