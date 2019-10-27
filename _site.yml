@@ -4,7 +4,7 @@ navbar:
   title: "[WS]"
   right:
     - text: "CV"
-      href: CV.html
+      href: cv.html
     - text: "Examples"
       menu:
       - text: "Plotly"
