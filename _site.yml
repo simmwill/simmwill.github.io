@@ -17,4 +17,4 @@ navbar:
       href: http://github.com/simmwill/
 output:
   html_document:
-    theme: lux
+    theme: sandstone

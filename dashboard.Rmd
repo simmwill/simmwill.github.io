@@ -73,6 +73,6 @@ In order to get this dashboard to work within a Github website, we have two opti
   * OR, use the code below:
   
 ```{r}
-rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
+#rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
 ```
 
