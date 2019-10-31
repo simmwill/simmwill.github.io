@@ -14,5 +14,5 @@ editor_options:
 
 </center>
 
-I'm currently a master's candidate in Epidemiology and Applied Biostatistics at the Columbia University Mailman School of Public Health. My research with Columbia's [IRI](https://iri.columbia.edu/) focuses on using epidemiological and biostatistical methods to answer questions related to environmental health.
+I'm currently a master's student in Epidemiology and Applied Biostatistics at Columbia University's Mailman School of Public Health. My research with Columbia's [IRI](https://iri.columbia.edu/) focuses on using epidemiological and biostatistical methods to answer questions related to environmental health.
 

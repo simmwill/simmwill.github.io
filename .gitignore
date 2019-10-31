@@ -4,5 +4,5 @@
 .Ruserdata
 about.Rmd
 about.html
-dashboard.Rmd
-dashboard.html
+dashboard_example.Rmd
+dashboard_example.html

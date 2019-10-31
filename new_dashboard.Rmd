@@ -1,0 +1,199 @@
+---
+title: "Example Work Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+#    vertical_layout: fill
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+## cleaning data
+
+clean_noaa =
+ny_noaa %>% 
+  filter(snow < 1300) %>% 
+  mutate(tmax = as.numeric(tmax),
+         tmax = tmax/10,
+         
+         tmin = as.numeric(tmin),
+         tmin = tmin/10, 
+         
+         prcp = prcp/10,
+         
+         year = lubridate::year(date),
+         month = lubridate::month(date),
+         day = lubridate::day(date)
+  )
+
+```
+
+```{r, eval = FALSE}
+## pick out 10 most consistently-recorded stations
+
+clean_noaa %>% 
+  drop_na() %>% 
+  group_by(id) %>% 
+  summarize(count = n()) %>% 
+  arrange(desc(count)) 
+```
+
+```{r}
+## subsetting data to these ten substations
+
+clean_noaa_subset = 
+  clean_noaa %>% 
+  filter(id %in% c('USW00014732',
+                  'USW00094789',
+                  'USW00014768',
+                  'USW00014771',
+                  'USW00004725',
+                  'USW00014733',
+                  'USC00305426',
+                  'USC00306314',
+                  'USW00014735',
+                  'USC00304912')
+  ) %>% 
+  mutate(id = recode(id, 
+                      "USW00014732" = 'LaGuardia_Airport',
+                      "USW00094789" = 'JFK_Airport',
+                      "USW00014768" = 'Rochester_Airport',
+                      "USW00014771" = 'Syracuse_Airport',
+                      "USW00004725" = 'Binghamton_Airport',
+                      "USW00014733" = 'Buffalo_Airport',
+                      "USC00305426" = 'Mohonk_Lake',
+                      "USC00306314" = 'Oswego_East',
+                      "USW00014735" = 'Albany_Airport',
+                      "USC00304912" = 'Lowville')
+  )
+```
+
+
+Row {.tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Mean Monthly Snowfall (mm) Across Time, by Station
+
+```{r}
+
+xtitle = list(
+  title = ""
+)
+
+ytitle = list(
+  title = "Mean monthly snowfall (mm)"
+)
+  
+## first plot
+clean_noaa_subset %>% 
+    #filter(id %in% c("LaGuardia_Airport", "Buffalo_Airport")) %>% 
+    mutate(id = sub("_", " ", id),
+           month_timeseries = cut(date, breaks = "month"),
+           month_timeseries = as.Date(month_timeseries)) %>% 
+    group_by(id, month_timeseries) %>% 
+    summarize(mean_snow = mean(snow)) %>% 
+    plot_ly(x = ~month_timeseries, 
+            y = ~mean_snow, 
+            type = "scatter", 
+            mode = "lines",
+            color = ~id,
+            colors = "Set1"
+            ) %>% 
+    layout(xaxis = xtitle,
+           yaxis = ytitle,
+           annotations =  list(x = 1.15, y = .2, text = "Double-click on an\narea to isolate.", 
+              showarrow = FALSE, xref = 'paper', yref = 'paper', 
+              xanchor = 'right', yanchor = 'auto', xshift = 0, yshift = 0,
+              font = list(size = 10, color = "black"))
+  )
+
+```
+
+
+### Distribution of Minimum Temperature (F), by Station
+
+```{r}
+xtitle = list(
+  title = "Weather station"
+)
+
+ytitle = list(
+  title = "Minimum temperature (F)"
+)
+
+clean_noaa_subset %>% 
+  mutate(id = sub("_", " ", id),
+         tmin_f = tmin*(9/5) + 32,
+         id = as.factor(id),
+         id = fct_reorder(id, desc(tmin_f))) %>%
+  plot_ly(y = ~tmin_f,
+          color = ~id,
+          type = "box",
+          colors = "Set1") %>% 
+  layout(xaxis = xtitle,
+         yaxis = ytitle,
+         annotations = 
+         list(x = 1.15, y = .2, text = "Double-click on an\narea to isolate.", 
+             showarrow = FALSE, xref = 'paper', yref = 'paper', 
+             xanchor = 'right', yanchor = 'auto', xshift = 0, yshift = 0,
+             font = list(size = 10, color = "black"))
+         )
+```
+
+### Mean Weekly Minimum Temperature (F) and Snow (mm), by Station
+
+```{r}
+# Weekly mean tmax, with bubble sizes indicating snow level
+
+xtitle = list(
+  title = "Week of year"
+)
+
+ytitle = list(
+  title = "Mean weekly max. temperature (F)"
+)
+
+clean_noaa_subset %>% 
+  #filter(id == "JFK_Airport") %>% 
+  mutate(id = sub("_", " ", id),
+         week = lubridate::week(date),
+         tmin_f = tmin*(9/5) + 32,
+         tmax_f = tmax*(9/5) + 32) %>% 
+  group_by(id, week) %>% 
+  summarize(mean_tmax = mean(tmax_f),
+            mean_snow = mean(snow)
+  ) %>%
+  plot_ly(x = ~week) %>% 
+  add_markers(y = ~mean_tmax,
+              size = ~mean_snow,
+              sizes = c(10, 500),
+              #sizemode = 'area',
+              #sizeref = 2.0 * max(mean_snow) / (2**2),
+              opacity = 0.5,
+              color = ~id,
+              colors = "Set1",
+              hoverinfo = 'text',
+              text = ~paste('Station:', id, '<br>Mean max. temp. for week', week, ": ", round(mean_tmax, 2), 'F<br>Mean snow for week', week, ': ', round(mean_snow, 2), 'mm')) %>% 
+  layout(xaxis = xtitle,
+         yaxis = ytitle,
+         annotations = 
+            list(x = 1.2, y = .2, text = "Double-click on an area\nto isolate. Point size corresponds\nto weekly mean snowfall (mm).\nHover over point for details.", 
+            showarrow = FALSE, xref = 'paper', yref = 'paper', 
+            xanchor = 'right', yanchor = 'auto', xshift = 0, yshift = 0,
+            font = list(size = 10, color = "black"))
+        )
+
+```
+
+
+```{r}
+#rmarkdown::render("new_dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
+```

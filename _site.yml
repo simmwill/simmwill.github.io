@@ -5,12 +5,10 @@ navbar:
   right:
     - text: "CV"
       href: cv.html
-    - text: "Examples"
+    - text: "Work"
       menu:
-      - text: "Plotly"
-        href: plotly.html
-      - text: "Dashboard Example"
-        href: dashboard_example.html
+      - text: "Examples of Work (Flexdashboard)"
+        href: new_dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<wes2121@columbia.edu>
     - icon: fa-linkedin fa-lg
