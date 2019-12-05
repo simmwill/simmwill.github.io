@@ -14,7 +14,7 @@ editor_options:
 ### *EDUCATION*
 **Columbia University.** Master of Public Health, Epidemiology and Applied Biostatistics. *May 2020.*
 
-*Relevant coursework:* Epidemiology I-III, Regression Methods, Categorical Data Analysis.  
+*Relevant coursework:* Epidemiology I-III, Regression Methods, Categorical Data Analysis, R, SAS, SQL.  
 *Honors:* Delta Omega, Wyman Scholar.
 
 **Baylor University.** Bachelor of Science, Neuroscience. *May 2015.*
@@ -56,13 +56,17 @@ Gorfinkel L, **Simmons W**, Stohl M, Hasin D (2019). *Trends in depression and p
 &nbsp;
 
 ### *PRESENTATIONS*
-*Exploring associations between climate variation and anthropometric indicators of under-5 nutritional status in Bangladesh, 1990-2006.* Lead researcher and invited presenter. Master’s Student Day, Columbia University Mailman School of Public Health, New York, NY. October 2019.
+"Climatic predictors of short-term variation and seasonal patterns in anthropometric indicators of under-5 nutritional status: Bangladesh, 1990-2006." Poster presentation (upcoming). Clinical Climate Change Conference. Icahn School of Medicine at Mount Sinai, New York, NY. January 2020.
 
-*Climate, nutrition, and health in Bangladesh: Exploring associations between climate variability and childhood anthropometry, 1990-2006.* Lead researcher and invited presenter. School of International and Public Affairs, Columbia University, New York, NY. September 2019.
+"Exploring associations between climate variation and anthropometric indicators of under-5 nutritional status in Bangladesh, 1990-2006." Lead researcher and invited presenter. Master’s Student Day, Columbia University Mailman School of Public Health, New York, NY. October 2019.
 
-*Food and Public Health: Bridging Research and Practice.* Moderator, panel discussion. Columbia University Mailman School of Public Health, New York, NY. April 2019.
+"Food, Climate, and Environment: Where Do We Go from Here?" Moderator, panel discussion. Columbia University Mailman School of Public Health, New York, NY. October. 2019.
 
-*Clean water, food security, or protein? A study of growth among children in rural western Kenya.* Lead researcher and contributor to presentation. Unite for Sight Global Health & Innovation Conference, Yale University, New Haven, CT. April 2016.
+"Climate, nutrition, and health in Bangladesh: Exploring associations between climate variability and childhood anthropometry, 1990-2006." Lead researcher and invited presenter. School of International and Public Affairs, Columbia University, New York, NY. September 2019.
+
+"Food and Public Health: Bridging Research and Practice." Moderator, panel discussion. Columbia University Mailman School of Public Health, New York, NY. April 2019.
+
+"Clean water, food security, or protein? A study of growth among children in rural western Kenya." Lead researcher and contributor to presentation. Unite for Sight Global Health & Innovation Conference, Yale University, New Haven, CT. April 2016.
 
 &nbsp;
 
@@ -71,7 +75,7 @@ Gorfinkel L, **Simmons W**, Stohl M, Hasin D (2019). *Trends in depression and p
 
 **Programming**:  
 
-  * R
+  * R (tidyverse, ggplot2, dplyr)
   * SAS
   * SQL
   * MATLAB (basic)

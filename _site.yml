@@ -5,10 +5,10 @@ navbar:
   right:
     - text: "CV"
       href: cv.html
-    - text: "Work"
+    - text: "Example Work"
       menu:
-      - text: "Examples of Work (Flexdashboard)"
-        href: new_dashboard.html
+      - text: "Predicting Eviction Rates in Brooklyn"
+        href: http://simmwill.github.io/evictions
     - icon: fa-envelope fa-lg
       href: mailto:<wes2121@columbia.edu>
     - icon: fa-linkedin fa-lg
