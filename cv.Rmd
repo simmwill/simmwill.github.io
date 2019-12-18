@@ -12,62 +12,114 @@ editor_options:
 &nbsp;
 
 ### *EDUCATION*
-**Columbia University.** Master of Public Health, Epidemiology and Applied Biostatistics. *May 2020.*
+#### **MPH Epidemiology and Applied Biostatistics**  
+Columbia University - May 2020 *(anticipated)*
 
-*Relevant coursework:* Epidemiology I-III, Regression Methods, Categorical Data Analysis, R, SAS, SQL.  
-*Honors:* Delta Omega, Wyman Scholar.
+*Relevant coursework:* Epidemiology I-III, Regression, Survival Analysis, Longitudinal Data Analysis, R, SAS, SQL  
+*Honors:* Delta Omega, Wyman Scholar
 
-**Baylor University.** Bachelor of Science, Neuroscience. *May 2015.*
+&nbsp;
 
-*Relevant coursework:* Neuropharmacology, Neuroanatomy, Biostatistics, Multilevel Modeling.  
-*Honors:* Summa Cum Laude, Phi Beta Kappa, Regent's Gold Scholar.
+#### **BS Neuroscience**  
+Baylor University - May 2015
 
+*Relevant coursework:* Neuropharmacology, Neuroanatomy, Biostatistics, Multilevel Modeling   
+*Honors:* Summa Cum Laude, Phi Beta Kappa, Regent's Gold Scholar
+
+&nbsp;
+&nbsp;
 &nbsp;
 
 ### *RESEARCH EXPERIENCE*
-**International Research Institute for Climate and Society, Columbia University Earth Institute**  
-*February 2019 - Present*  
-Research Assistant to Professors Madeleine Thomson and Hannah Nissan
+#### **Graduate Research Assistant**
+Department of Epidemiology, Columbia University Mailman School of Public Health  
+*December 2019 to Present*
 
-**Baylor University**  
-*January 2013 - May 2015*  
-Research Assistant to Professor Lisa Baker
+Research advisor Dr. Jeanette Stingone. Analysis of extreme heat events and PM2.5 exposure during early pregnancy and subsequent effects on congenital heart defects. Part of the CDC-funded National Birth Defects Prevention Study (NBDPS).
 
 &nbsp;
 
+#### **Graduate Research Assistant**
+International Research Institute for Climate and Society, Columbia University Earth Institute  
+*February 2019 to Present*
+
+Research advisors Dr. Hannah Nissan and Dr. Robbie Parks. Timeseries analyses of climatic variation, extreme weather events, and under-5 nutrition in Bangladesh. Funded by Columbia University World Project [ACToday](https://iri.columbia.edu/actoday).
+
+&nbsp;
+
+#### **Research Assistant**
+Baylor University  
+*January 2013 to May 2015*
+
+Research advisor Dr. Lisa Baker. Analysis of water quality, food security, and child growth in Nyakach, Kenya.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ### *PROFESSIONAL & TEACHING EXPERIENCE*
-**Columbia University Mailman School of Public Health**  
-*August 2019 - Present*  
-Graduate Teaching Assistant - Introductory Quantitative Methods
+#### **Graduate Teaching Assistant**
+Columbia University Mailman School of Public Health  
+*August 2019 to December 2019*
 
-**Hawaiʻi Alliance for Community-Based Economic Development**  
-*August 2015 - July 2018*  
-Community Food Systems Specialist
+Graduate Teaching Assistant for Introductory Quantitative Methods course. Conducted weekly lab section for 25 first-year masters students.
 
-**United States Agency for International Development**  
-*May 2013 - August 2013*  
-Intern, Africa Bureau
+&nbsp;
 
+#### **Community Food Systems Specialist**
+Hawaiʻi Alliance for Community-Based Economic Development  
+*August 2015 to July 2018*
+
+Program development and grantwriting for grassroots community initiatives throughout Hawaiian islands. Successful grants and proposals totaled $600,000+.
+
+&nbsp;
+
+#### **Intern**
+United States Agency for International Development
+*May 2013 to August 2013*
+
+Intern for USAID's Africa Bureau, Office of Southern African Affairs.
+
+&nbsp;
+&nbsp;
 &nbsp;
 
 ### *PUBLICATIONS*
 Gorfinkel L, **Simmons W**, Stohl M, Hasin D (2019). *Trends in depression and past-month cannabis use in US adults: A cross-sectional study based on NHANES 2005-2016.* Manuscript submitted for publication to *Drug and Alcohol Dependence.*
 
 &nbsp;
+&nbsp;
+&nbsp;
 
 ### *PRESENTATIONS*
-"Climatic predictors of short-term variation and seasonal patterns in anthropometric indicators of under-5 nutritional status: Bangladesh, 1990-2006." Poster presentation (upcoming). Clinical Climate Change Conference. Icahn School of Medicine at Mount Sinai, New York, NY. January 2020.
+"Climatic predictors of short-term variation and seasonal patterns in anthropometric indicators of under-5 nutritional status: Bangladesh, 1990-2006." **Poster presentation (upcoming).** Clinical Climate Change Conference. Icahn School of Medicine at Mount Sinai, New York, NY. January 2020.
 
-"Exploring associations between climate variation and anthropometric indicators of under-5 nutritional status in Bangladesh, 1990-2006." Lead researcher and invited presenter. Master’s Student Day, Columbia University Mailman School of Public Health, New York, NY. October 2019.
+&nbsp;
 
-"Food, Climate, and Environment: Where Do We Go from Here?" Moderator, panel discussion. Columbia University Mailman School of Public Health, New York, NY. October. 2019.
+"Exploring associations between climate variation and anthropometric indicators of under-5 nutritional status in Bangladesh, 1990-2006." **Lead researcher and invited presenter.** Master’s Student Day, Columbia University Mailman School of Public Health, New York, NY. October 2019.
 
-"Climate, nutrition, and health in Bangladesh: Exploring associations between climate variability and childhood anthropometry, 1990-2006." Lead researcher and invited presenter. School of International and Public Affairs, Columbia University, New York, NY. September 2019.
+&nbsp;
+&nbsp;
 
-"Food and Public Health: Bridging Research and Practice." Moderator, panel discussion. Columbia University Mailman School of Public Health, New York, NY. April 2019.
+"Food, Climate, and Environment: Where Do We Go from Here?" **Moderator, panel discussion.** Columbia University Mailman School of Public Health, New York, NY. October. 2019.
 
-"Clean water, food security, or protein? A study of growth among children in rural western Kenya." Lead researcher and contributor to presentation. Unite for Sight Global Health & Innovation Conference, Yale University, New Haven, CT. April 2016.
+&nbsp;
+&nbsp;
 
+"Climate, nutrition, and health in Bangladesh: Exploring associations between climate variability and childhood anthropometry, 1990-2006." **Lead researcher and invited presenter.** School of International and Public Affairs, Columbia University, New York, NY. September 2019.
+
+&nbsp;
+&nbsp;
+
+"Food and Public Health: Bridging Research and Practice." **Moderator, panel discussion.** Columbia University Mailman School of Public Health, New York, NY. April 2019.
+
+&nbsp;
+&nbsp;
+
+"Clean water, food security, or protein? A study of growth among children in rural western Kenya." **Lead researcher and contributor to presentation.** Unite for Sight Global Health & Innovation Conference, Yale University, New Haven, CT. April 2016.
+
+&nbsp;
+&nbsp;
 &nbsp;
 
 
@@ -75,7 +127,7 @@ Gorfinkel L, **Simmons W**, Stohl M, Hasin D (2019). *Trends in depression and p
 
 **Programming**:  
 
-  * R (tidyverse, ggplot2, dplyr)
+  * R (tidyverse, Plotly.R, Shiny)
   * SAS
   * SQL
   * MATLAB (basic)
