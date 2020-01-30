@@ -4,24 +4,26 @@ navbar:
   title: Home
   right:
     - text: "CV"
-      href: http://simmwill.github.io/cv/
+      href: http://simmwill.github.io/cv
     - text: "Example Work"
       menu:
       - text: "Poster: Climate variation and under-5 malnutrition in Bangladesh"
         href: ./files/poster.pdf
-      - text: "Predicting Eviction Rates in Brooklyn"
-        href: http://simmwill.github.io/evictions/
+      - text: "Project: Predicting Eviction Rates in Brooklyn"
+        href: http://simmwill.github.io/evictions
     - icon: fa-envelope fa-lg
       href: mailto:<w.simmons@columbia.edu>
     - icon: fa-linkedin fa-lg
       href: http://linkedin.com/in/simmonswill
     - icon: fa-github fa-lg
-      href: http://github.com/simmwill/
+      href: http://github.com/simmwill
     - icon: fa-twitter fa-lg
       href: https://twitter.com/simmonswilliam_
 output:
   html_document:
     theme: yeti
+    includes:
+      after_body: footer.html
   #css: styles.css
     #can use google fonts to spruce up styles.css file
     #look at http://cbpascual.com/ for good example of creative project layout

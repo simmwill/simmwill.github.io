@@ -1,13 +1,11 @@
 ---
+title: "Current Work"
 output: html_document
 ---
+
 &nbsp;
 
 See below to learn about some of my current projects. You can download a copy of my CV [here](./files/cv.pdf).
-
-&nbsp;
-
-## Current work
 
 &nbsp;
 
