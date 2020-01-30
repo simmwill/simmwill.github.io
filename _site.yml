@@ -15,8 +15,8 @@ navbar:
       href: mailto:<w.simmons@columbia.edu>
     - icon: fa-linkedin fa-lg
       href: http://linkedin.com/in/simmonswill
-    - icon: fa-github fa-lg
-      href: http://github.com/simmwill
+#    - icon: fa-github fa-lg
+#      href: http://github.com/simmwill
     - icon: fa-twitter fa-lg
       href: https://twitter.com/simmonswilliam_
 output:
