@@ -1,20 +1,24 @@
 name: "Will Simmons"
 output_dir: "."
 navbar:
-  title: "[ws]"
+  title: Home
   right:
     - text: "CV"
-      href: cv.html
+      href: http://simmwill.github.io/cv/
     - text: "Example Work"
       menu:
+      - text: "Poster: Climate variation and under-5 malnutrition in Bangladesh"
+        href: ./files/poster.pdf
       - text: "Predicting Eviction Rates in Brooklyn"
-        href: http://simmwill.github.io/evictions
+        href: http://simmwill.github.io/evictions/
     - icon: fa-envelope fa-lg
-      href: mailto:<wes2121@columbia.edu>
+      href: mailto:<w.simmons@columbia.edu>
     - icon: fa-linkedin fa-lg
       href: http://linkedin.com/in/simmonswill
     - icon: fa-github fa-lg
       href: http://github.com/simmwill/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/simmonswilliam_
 output:
   html_document:
     theme: yeti
