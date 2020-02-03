@@ -3,7 +3,6 @@ title: "WILL SIMMONS"
 output: html_document
     # toc: true
     # toc_float: true
-head: <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 editor_options: 
   chunk_output_type: console
   
