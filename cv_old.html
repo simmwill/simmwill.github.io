@@ -26,8 +26,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -105,93 +103,6 @@ summary {
 </style>
 
 
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
 
 <!-- tabsets -->
 
@@ -330,62 +241,22 @@ div.tocify {
 
 
 
+<html>
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Home</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="http://simmwill.github.io/cv">CV</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Example Work
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="./files/poster.pdf">Poster: Climate variation and under-5 malnutrition in Bangladesh</a>
-    </li>
-    <li>
-      <a href="http://simmwill.github.io/evictions">Project: Predicting Eviction Rates in Brooklyn</a>
-    </li>
-  </ul>
-</li>
-<li>
-  <a href="mailto:&lt;w.simmons@columbia.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="http://linkedin.com/in/simmonswill">
-    <span class="fa fa-linkedin fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/simmonswilliam_">
-    <span class="fa fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<br>
+<br>
+
+<small>
+<p style="text-align: left;">
+<a href="http://simmwill.github.io" style="color:#000000; text-decoration: none">Home&emsp;</a>
+<a href="http://simmwill.github.io/cv" style="color:#000000; text-decoration: none">&emsp;Current&emsp;</a>
+<a href="http://simmwill.github.io/examples" style="color:#000000; text-decoration: none">&emsp;Examples&emsp;</a>
+<a href="mailto:w.simmons@columbia.edu" style="color:#000000; text-decoration: none">&emsp;Contact  </a>
+</p>
+
+</small>
+
+</html>
 
 <div class="fluid-row" id="header">
 
@@ -504,17 +375,18 @@ div.tocify {
 
 <html>
   
-&nbsp;
-<hr />
+<!--&nbsp;
+<hr />-->
 
 <small>
   
-<p style="text-align: center;">
+<p style="text-align: left;">
  <a href="http://github.com/simmwill" style="color:#000000"><i class="fa fa-github fa-lg"></i></a>
+ <a href="https://twitter.com/simmonswilliam_" style="color:#000000"><i class="fa-twitter fa-lg"></i></a>
 </p>
-<p style="text-align: center;">
+<!--<p style="text-align: center;">
   © 2020 Will Simmons
-</p>
+</p>-->
 
 
 
