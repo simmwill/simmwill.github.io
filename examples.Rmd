@@ -16,7 +16,9 @@ output: html_document
 &nbsp;
 
 #### **Poster: Climate variation and under-5 acute malnutrition in Bangladesh** **([PDF](./files/poster.pdf))**
-Working with [Dr. Hannah Nissan](http://www.lse.ac.uk/GranthamInstitute/profile/hannah-nissan/), I performed preliminary analyses on links between climate events and child anthropometry at multiple timescales. Our [research poster](./files/poster.pdf) won first prize at the 2020 NYC [Clinical Climate Change Conference](https://clinicalclimatechange.com/2020).
+Working with [Dr. Hannah Nissan](http://www.lse.ac.uk/GranthamInstitute/profile/hannah-nissan/), I performed preliminary analyses on links between climate events and child anthropometry at multiple timescales. I presented our [research](./files/poster.pdf) at the 2020 NYC [Clinical Climate Change Conference](https://clinicalclimatechange.com/2020).
+
+We were awarded [first prize](./images/conference.png) for best research poster!
 
 &nbsp;
 
