@@ -1,7 +1,17 @@
 ---
-title: "Current Research"
+title: "<br><br>Current Research"
 output: html_document
 ---
+
+<style>
+.main-container {
+  max-width: 90%;
+  margin-left: 0.9;
+  margin-right: auto;
+}
+</style>
+
+&nbsp;
 
 &nbsp;
 
