@@ -29,7 +29,7 @@ We are assessing the effects of maternal exposure to air pollution (PM~2.5~) and
 #### **Climate variation and under-5 acute malnutrition in Bangladesh**
 I am also working with Columbia's International Research Institute for Climate and Society ([IRI](https://iri.columbia.edu)), a part of the [Earth Institute](https://www.earth.columbia.edu/).
 
-Specifically, I am working with [Dr. Hannah Nissan](http://www.lse.ac.uk/GranthamInstitute/profile/hannah-nissan/) and [Dr. Robbie Parks](https://robbiemparks.github.io/) to assess associations between climate events and child anthropometry at seasonal and sub-seasonal scales, with a current focus on Bangladesh. Here is a [poster](./files/poster.pdf) of our preliminary findings, which won first prize at the 2020 NYC [Clinical Climate Change Conference](https://clinicalclimatechange.com/2020).
+Specifically, I am working with [Dr. Hannah Nissan](http://www.lse.ac.uk/GranthamInstitute/profile/hannah-nissan/), [Dr. Robbie Parks](https://robbiemparks.github.io/), and [Dr. Shauna Downs](https://sph.rutgers.edu/concentrations/urban-global-public-health/faculty-member.php?id=92701) to assess associations between climate events and child anthropometry at seasonal and sub-seasonal scales, with a current focus on Bangladesh. Here is a [poster](./files/poster.pdf) of our preliminary findings, which won first prize at the 2020 NYC [Clinical Climate Change Conference](https://clinicalclimatechange.com/2020).
 
 My research with IRI is funded by [ACToday](https://worldprojects.columbia.edu/content/actoday), Columbia University's first [World Project](https://worldprojects.columbia.edu/).
 

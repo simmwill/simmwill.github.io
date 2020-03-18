@@ -30,4 +30,4 @@ I am a master's student in the Departments of [Epidemiology](https://www.mailman
 
 My current research activities at Columbia include work with both the Department of Epidemiology and Columbia's [IRI](https://iri.columbia.edu/), part of the [Earth Institute](https://www.earth.columbia.edu). My current focus is the use of epidemiological and biostatistical methods to answer questions related to climatic exposures and environmental health.
 
-For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my CV.
+For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf).
