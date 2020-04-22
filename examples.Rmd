@@ -20,9 +20,11 @@ Working with [Dr. Hannah Nissan](http://www.lse.ac.uk/GranthamInstitute/profile/
 
 We were awarded [first prize](./images/conference.png) for best research poster!
 
+We are now carrying this research forward to a timeseries analysis of these associations, which will be submitted for publication sometime in 2020.
+
 &nbsp;
 
-#### **Project: Evictions in Brooklyn** **([Site](https://simmwill.github.io/evictions))**
+#### **Project: Evicted in Brooklyn** **([Site](https://simmwill.github.io/evictions))**
 Evictions represent a major source of housing instability in the United States, especially in vulnerable communities. Eviction has now grown to what many consider epidemic proportions, with over 450,000 evictions filed in New York City between 2013 and 2015.
 
 As a team of collaborators in Columbia's [Data Science I](https://p8105.com) course, we investigated what neighborhood-level factors could be used to predict yearly eviction rates in Brooklyn. We used data from Priceton's [Eviction Lab](https://evictionlab.org), the [US Census Database](https://factfinder.census.gov/faces/nav/jsf/pages/guided_search.xhtml), and [NYC Open Data](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page).
