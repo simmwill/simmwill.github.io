@@ -1,0 +1,36 @@
+---
+title: "Work"
+output: 
+  html_document:
+    css: styles.css
+---
+
+<table class="gallery">
+  <tr>
+    <th><a href="./predicting-hurricane-trajectory.html"><img class="proj-img" title="ABC" src="./static/mcmc-img.png" /></a></th>
+    <th><a href="./improving-confidence-intervals.html"><img class="proj-img" title="DEF" src="./static/bootstrap-img.png" /></a></th> 
+    <th><a href="./implementing-logistic-lasso.html"><img class="proj-img" title="GHI" src="./static/optimize-img.png" /></a></th>
+  </tr>
+</table>
+
+
+
+
+<!-- Work: -->
+
+<!--   - NBDPS (OR Plot) -->
+<!--   - ACToday (Map + Smooths for Tatiana) -->
+<!--   - ACToday (Timeseries) -->
+<!--   - ACToday (Timeseries 2) -->
+
+<!-- Projects: -->
+
+<!--   - Predicting Ocean Acidification (Midterm - Fig2 Scatters or Fig5 PDP) -->
+<!--   - Predicting Evictions in Brooklyn (% ESL Speakers Map here https://simmwill.github.io/evictions/question_3_maps.html) -->
+<!--   - Chemical Exposures and Thyroid Function (Fig3 Spline vs. Linear) -->
+<!--   - Cell Phones and Horn Growth (Fig3/4 here https://github.com/simmwill/p8105_mtp_wes2121/blob/master/p8105_mtp_wes2121.md) -->
+
+<!-- Future to-do: -->
+
+<!--   - Kenya? -->
+<!--   - Activity monitor data (DSI, HW3) -->

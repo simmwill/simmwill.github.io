@@ -1,0 +1,36 @@
+.main-container {
+  max-width: 90%;
+  margin-left: 0.9;
+  margin-right: auto;
+}
+
+.icons {
+  font-size: 48px;
+  text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th {
+  padding: 20px;
+}
+
+.proj-img {
+  height: 250px;
+  width: 250px;
+  border: solid 3px black;
+  border-radius: 50%;
+}
+
+.filler {
+  border: solid 3px white;
+  border-radius: 50%;
+}
+
+.caption {
+  text-align: center;
+  color: rgba(211, 211, 211, 0.8);
+}
