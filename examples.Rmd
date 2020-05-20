@@ -32,14 +32,22 @@ output:
   </tr>
   <tr>
     <th><img class="proj-img" title="Evictions vs. Percent non-white Residents, Brooklyn, NY" src="images/eviction_map_sq_2.jpg" /></th>
-    <th><img class="proj-img" title="Benzophenone-3 vs. Thyroid Function, NHANES" src="images/figure_3_sq.png" /></th>
+    <th><img class="proj-img" title="Association between Benzophenone-3 and Thyroid Function, NHANES" src="images/figure_3_sq.png" /></th>
     <th><img class="proj-img" title="Predicting Ocean Oxygen Levels with Salinity and Phosphates" src="images/pdp_sq.png" /></th>
   </tr>
 </table>
 
 &nbsp;
 
-#### **Poster: Climate variation and under-5 acute malnutrition in Bangladesh** **([PDF](./files/poster.pdf))**
+#### **Master's Thesis: Joint effects of prenatal exposure to fine particulate matter and extreme heat on congenital heart defects in offspring**
+
+I completed my master's research with environmental epidemiologist [Dr. Jeanette Stingone](https://www.mailman.columbia.edu/people/our-faculty/js5406) and the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)). As one of the largest studies of its kind globally, it comprises a nationwide cohort of researchers working to understand causes of birth defects.
+
+For my master's research, I investigated the joint effects of maternal exposure to air pollution (in our study, PM~2.5~) and extreme heat events on congenital heart defects in offspring. I will continue this research with Dr. Stingone and the NBDPS team.
+
+&nbsp;
+
+#### **Research Poster: Climate variation and under-5 acute malnutrition in Bangladesh** **([PDF](./files/poster.pdf))**
 Working with [Dr. Hannah Nissan](http://www.lse.ac.uk/GranthamInstitute/profile/hannah-nissan/), I performed preliminary analyses on links between climate events and child anthropometry at multiple timescales. I presented our [research](./files/poster.pdf) at the 2020 NYC [Clinical Climate Change Conference](https://clinicalclimatechange.com/2020).
 
 We were awarded [first prize](./images/conference.png) for best research poster!

@@ -20,11 +20,9 @@ See below to learn about some of my current projects. You can download a copy of
 &nbsp;
 
 #### **Associations between fine particulate matter, extreme heat events, and congenital heart defects**  
-I am working with environmental epidemiologist [Dr. Jeanette Stingone](https://www.mailman.columbia.edu/people/our-faculty/js5406) for my master's research in Columbia's [Department of Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology). 
+Having completed my master's research in Columbia's [Department of Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology), I am continuing my work with environmental epidemiologist [Dr. Jeanette Stingone](https://www.mailman.columbia.edu/people/our-faculty/js5406) and a nationwide group of researchers from the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)), one of the largest studies of its kind.
 
-We are assessing the effects of maternal exposure to air pollution (specifically, PM~2.5~) and extreme heat events on congenital heart defects in offspring. We are working with a nationwide group of researchers from the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)), one of the largest studies of its kind in the US.
-
-Ours is a follow-up study to published NBDPS research examining [extreme heat](https://pubmed.ncbi.nlm.nih.gov/29886237/), [air pollutants](https://pubmed.ncbi.nlm.nih.gov/24727555/), and [their interactions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7004451/) with respect to birth outcomes.
+Specifically, we are assessing the joint effects of maternal exposure to air pollution (in our study, PM~2.5~) and extreme heat events on congenital heart defects in offspring. Ours is a follow-up study to published NBDPS research examining [extreme heat](https://pubmed.ncbi.nlm.nih.gov/29886237/), [air pollutants](https://pubmed.ncbi.nlm.nih.gov/24727555/), and [their interactions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7004451/) with respect to birth outcomes.
 
 &nbsp;
 
