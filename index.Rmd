@@ -25,9 +25,10 @@ editor_options:
 
 <br>
 <img align="right" src="images/will_sq.jpg" height=200 style="border-radius:50%; border:5px solid #FFFFFF " />
+<br>
 
-Hi! My primary interests include the use of epidemiological and biostatistical methods to quantify environment-health interactions, in addition to exploring what data can help us do so. 
+Hi! I'm an epidemiologist whose primary interests include quantifying environment-health interactions and the data \& methods used to do so.
 
 I hold a master's degree from Columbia University's Departments of [Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology) and [Biostatistics](https://www.mailman.columbia.edu/academics/departments/biostatistics). My continued research activities at Columbia include work with both the Department of Epidemiology and Columbia's [IRI](https://iri.columbia.edu/), part of the [Earth Institute](https://www.earth.columbia.edu).
 
-For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf).
+For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf). You can also see examples of my [prior work and projects](http://simmwill.github.io/examples).
