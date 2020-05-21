@@ -1,5 +1,5 @@
 ---
-title: "<br><br>Examples of Past Work"
+title: "<br><br>Examples of Prior Work"
 output: 
   html_document:
     css: styles.css
