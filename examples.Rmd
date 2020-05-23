@@ -61,9 +61,9 @@ We are now carrying this research forward to a timeseries analysis of these asso
 #### **Project: Evicted in Brooklyn** **([Site](https://simmwill.github.io/evictions))**
 Evictions represent a major source of housing instability in the United States, especially in vulnerable communities. Eviction has now grown to what many consider epidemic proportions, with over 450,000 evictions filed in New York City between 2013 and 2015.
 
-As a team of collaborators in Columbia's [Data Science I](https://p8105.com) course, we investigated what neighborhood-level factors could be used to predict yearly eviction rates in Brooklyn. We used data from Priceton's [Eviction Lab](https://evictionlab.org), the [US Census Database](https://factfinder.census.gov/faces/nav/jsf/pages/guided_search.xhtml), and [NYC Open Data](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page).
+As a team of collaborators in Columbia's [Data Science I](https://p8105.com) course, we investigated what neighborhood-level factors could be used to predict yearly eviction rates in Brooklyn. We used data from Priceton's [Eviction Lab](https://evictionlab.org), the [US Census Database](https://factfinder.census.gov/faces/nav/jsf/pages/guided_search.xhtml), and [NYC Open Data](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-nynta.page). We created a [webpage](https://simmwill.github.io/evictions) to present our findings, complete with analysis details and a simple interactive [prediction tool](https://willsimmons.shinyapps.io/model_building/) I made in Shiny.
 
-We created a [webpage](https://simmwill.github.io/evictions), complete with analysis details and a simple interactive [prediction tool](https://willsimmons.shinyapps.io/model_building/) I made in Shiny.
+Out of ~50 student projects, instructors selected ours as one of the best. (Our reward? The [coveted cow hex sticker](https://p8105.com/images/p8105_stickers.png).)
 
 &nbsp;
 
