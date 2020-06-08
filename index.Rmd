@@ -1,5 +1,5 @@
 ---
-title: "<br><br>Will Simmons"
+title: "<br><br><br><br>Will Simmons"
 output: html_document
     # toc: true
     # toc_float: true
@@ -9,8 +9,8 @@ editor_options:
 <style>
 .main-container {
   max-width: 70%;
-  margin-left: 0.9;
-  margin-right: auto;
+  margin-left: 15%;
+  margin-right: 30%;
 }
 </style>
 
@@ -24,10 +24,12 @@ editor_options:
 <!-- </center> -->
 
 <br>
-<img align="right" src="images/will_sq.jpg" height=200 style="border-radius:50%; border:5px solid #FFFFFF " />
+<!-- <img align="right" src="images/will_sq.jpg" height=200 style="border-radius:50%; border:5px solid #FFFFFF " /> -->
 
 Hi! I'm an epidemiologist interested in quantifying environment-health interactions. I also love working with data in any setting, and I'm fascinated by exploring novel data sources and statistical methods.
 
-I hold a master's degree from Columbia University's Departments of [Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology) and [Biostatistics](https://www.mailman.columbia.edu/academics/departments/biostatistics). My continued research activities at Columbia include work with both the Department of Epidemiology and Columbia's [IRI](https://iri.columbia.edu/), part of the [Earth Institute](https://www.earth.columbia.edu).
+I hold a master's degree from Columbia University's Departments of [Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology) and [Biostatistics](https://www.mailman.columbia.edu/academics/departments/biostatistics). I continue to collaborate with researchers at Columbia and the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)). 
+
+<!-- with the  and Columbia's [IRI](https://iri.columbia.edu/), part of the [Earth Institute](https://www.earth.columbia.edu). -->
 
 For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf). You can also see examples of my [prior work and projects](http://simmwill.github.io/examples).
