@@ -26,10 +26,10 @@ editor_options:
 <br>
 <!-- <img align="right" src="images/will_sq.jpg" height=200 style="border-radius:50%; border:5px solid #FFFFFF " /> -->
 
-Hi! I'm an epidemiologist interested in quantifying environment-health interactions. I also love working with data in any setting, and I'm fascinated by exploring novel data sources and statistical methods.
+Hi! I'm an epidemiologist by training, interested in quantifying environment-health interactions and working with data in any setting. I currently work as a Programmer Analyst at Weill Cornell Medicine in New York City. 
 
 I hold a master's degree from Columbia University's Departments of [Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology) and [Biostatistics](https://www.mailman.columbia.edu/academics/departments/biostatistics). I continue to collaborate with researchers at Columbia and the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)). 
 
 <!-- with the  and Columbia's [IRI](https://iri.columbia.edu/), part of the [Earth Institute](https://www.earth.columbia.edu). -->
 
-For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf). You can also see examples of my [prior work and projects](http://simmwill.github.io/examples).
+<!-- For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf). You can also see examples of my [prior work and projects](http://simmwill.github.io/examples). -->
