@@ -1,8 +1,6 @@
 ---
 title: "<br><br><br><br>Will Simmons"
 output: html_document
-    # toc: true
-    # toc_float: true
 editor_options: 
   chunk_output_type: console
 ---
@@ -14,20 +12,8 @@ editor_options:
 }
 </style>
 
-<!-- <right> -->
-<!-- <font size="24"> Will Simmons </font>  -->
-<!-- </right> -->
-<!-- <center> -->
-
-<!-- <br><img src="images/will_cropped.jpg" alt="will" style="width:50%" class="center"><br> -->
-
-<!-- </center> -->
-
 <br>
-<!-- <img align="right" src="images/will_sq.jpg" height=200 style="border-radius:50%; border:5px solid #FFFFFF " /> -->
 
-Hi! I'm an epidemiologist by training, interested in quantifying environment-health interactions. I'm currently a Programmer Analyst at [Weill Cornell Medicine](https://weill.cornell.edu/units/biostatistics-and-epidemiology) in New York City, where my work and research focuses on COVID-19. 
+Hi! I'm an epidemiologist and statistical programmer with an interest in quantifying environment-health interactions. I'm currently a Programmer Analyst at [Weill Cornell Medicine](https://weill.cornell.edu/units/biostatistics-and-epidemiology) in New York City, where my work and research focuses on COVID-19.
 
-I have a master's degree from Columbia University's Departments of [Epidemiology](https://www.mailman.columbia.edu/academics/departments/epidemiology) and [Biostatistics](https://www.mailman.columbia.edu/academics/departments/biostatistics). I'm also fortunate to have ongoing collaborations with two research groups at Columbia: the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)), and the International Research Institute for Climate and Society ([IRI](https://iri.columbia.edu/)), part of the [Earth Institute](https://www.earth.columbia.edu).
-
-<!-- For more information, see my [current research](http://simmwill.github.io/cv), where you can find more in-depth descriptions of my  projects and my [CV](./files/cv.pdf). You can also see examples of my [prior work and projects](http://simmwill.github.io/examples). -->
+I have a master's degree from Columbia University's Departments of Epidemiology and Biostatistics. I also have ongoing collaborations with two research groups at Columbia: the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)), and the International Research Institute for Climate and Society ([IRI](https://iri.columbia.edu/)), part of the [Earth Institute](https://www.earth.columbia.edu).
