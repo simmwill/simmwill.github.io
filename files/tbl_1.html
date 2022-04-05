@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+
+</head>
+<body>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#hprzhvrtmg .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: small;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#hprzhvrtmg .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#hprzhvrtmg .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#hprzhvrtmg .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hprzhvrtmg .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#hprzhvrtmg .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#hprzhvrtmg .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#hprzhvrtmg .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hprzhvrtmg .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hprzhvrtmg .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#hprzhvrtmg .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#hprzhvrtmg .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#hprzhvrtmg .gt_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#hprzhvrtmg .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#hprzhvrtmg .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hprzhvrtmg .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hprzhvrtmg .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hprzhvrtmg .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hprzhvrtmg .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hprzhvrtmg .gt_left {
+  text-align: left;
+}
+
+#hprzhvrtmg .gt_center {
+  text-align: center;
+}
+
+#hprzhvrtmg .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#hprzhvrtmg .gt_font_normal {
+  font-weight: normal;
+}
+
+#hprzhvrtmg .gt_font_bold {
+  font-weight: bold;
+}
+
+#hprzhvrtmg .gt_font_italic {
+  font-style: italic;
+}
+
+#hprzhvrtmg .gt_super {
+  font-size: 65%;
+}
+
+#hprzhvrtmg .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="hprzhvrtmg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <th colspan="6" class="gt_heading gt_title gt_font_normal" style><strong>Table 1.</strong> Mental health-related ED visits via primary diagnosis.</th>
+    </tr>
+    <tr>
+      <th colspan="6" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style><strong>Visit-level</strong> data from INSIGHT CRN patients under 18, Jan 2016 to Nov 2021.
+<br>COVID Waves: Wave 1, 2020-03-01 to 2020-07-31; Wave 2, 2020-08-01 to 2021-06-30; Wave 3, 2021-07-01 to most recent data (2021-11-30).</th>
+    </tr>
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1"></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Overall</strong><br><strong>(All MH ED visits)</strong>,<br> N = 18652</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Pre-COVID</strong>,<br> N = 14068<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>COVID Wave 1</strong>,<br> N = 624<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>COVID Wave 2</strong>,<br> N = 2512<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>COVID Wave 3</strong>,<br> N = 1448<sup class="gt_footnote_marks">1</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr class="gt_group_heading_row">
+      <td colspan="6" class="gt_group_heading" style="font-weight: bold;">Visit characteristics</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Proportion of under-18 ED visits</td>
+      <td class="gt_row gt_center">2.12%</td>
+      <td class="gt_row gt_center">1.99%</td>
+      <td class="gt_row gt_center">2.21%</td>
+      <td class="gt_row gt_center">3.04%</td>
+      <td class="gt_row gt_center">2.24%</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Sex</td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Female</td>
+      <td class="gt_row gt_center">9949 (53%)</td>
+      <td class="gt_row gt_center">7281 (52%)</td>
+      <td class="gt_row gt_center">336 (54%)</td>
+      <td class="gt_row gt_center">1514 (60%)</td>
+      <td class="gt_row gt_center">818 (56%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Male</td>
+      <td class="gt_row gt_center">8701 (47%)</td>
+      <td class="gt_row gt_center">6786 (48%)</td>
+      <td class="gt_row gt_center">288 (46%)</td>
+      <td class="gt_row gt_center">997 (40%)</td>
+      <td class="gt_row gt_center">630 (44%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Unknown</td>
+      <td class="gt_row gt_center">2</td>
+      <td class="gt_row gt_center">1</td>
+      <td class="gt_row gt_center">0</td>
+      <td class="gt_row gt_center">1</td>
+      <td class="gt_row gt_center">0</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Race &amp; Ethnicity</td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Hispanic</td>
+      <td class="gt_row gt_center">6387 (41%)</td>
+      <td class="gt_row gt_center">4873 (42%)</td>
+      <td class="gt_row gt_center">210 (41%)</td>
+      <td class="gt_row gt_center">812 (38%)</td>
+      <td class="gt_row gt_center">492 (40%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Black or African American</td>
+      <td class="gt_row gt_center">4210 (27%)</td>
+      <td class="gt_row gt_center">3219 (28%)</td>
+      <td class="gt_row gt_center">132 (26%)</td>
+      <td class="gt_row gt_center">550 (26%)</td>
+      <td class="gt_row gt_center">309 (25%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">White</td>
+      <td class="gt_row gt_center">3103 (20%)</td>
+      <td class="gt_row gt_center">2166 (19%)</td>
+      <td class="gt_row gt_center">117 (23%)</td>
+      <td class="gt_row gt_center">518 (24%)</td>
+      <td class="gt_row gt_center">302 (24%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Asian</td>
+      <td class="gt_row gt_center">525 (3.4%)</td>
+      <td class="gt_row gt_center">360 (3.1%)</td>
+      <td class="gt_row gt_center">14 (2.7%)</td>
+      <td class="gt_row gt_center">100 (4.7%)</td>
+      <td class="gt_row gt_center">51 (4.1%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">American Indian or Alaska Native</td>
+      <td class="gt_row gt_center">16 (0.1%)</td>
+      <td class="gt_row gt_center">12 (0.1%)</td>
+      <td class="gt_row gt_center">1 (0.2%)</td>
+      <td class="gt_row gt_center">3 (0.1%)</td>
+      <td class="gt_row gt_center">0 (0%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Native Hawaiian or Other Pacific Islander</td>
+      <td class="gt_row gt_center">16 (0.1%)</td>
+      <td class="gt_row gt_center">11 (&lt;0.1%)</td>
+      <td class="gt_row gt_center">0 (0%)</td>
+      <td class="gt_row gt_center">1 (&lt;0.1%)</td>
+      <td class="gt_row gt_center">4 (0.3%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Multiple race</td>
+      <td class="gt_row gt_center">4 (&lt;0.1%)</td>
+      <td class="gt_row gt_center">3 (&lt;0.1%)</td>
+      <td class="gt_row gt_center">0 (0%)</td>
+      <td class="gt_row gt_center">0 (0%)</td>
+      <td class="gt_row gt_center">1 (&lt;0.1%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Other</td>
+      <td class="gt_row gt_center">1267 (8.2%)</td>
+      <td class="gt_row gt_center">989 (8.5%)</td>
+      <td class="gt_row gt_center">41 (8.0%)</td>
+      <td class="gt_row gt_center">157 (7.3%)</td>
+      <td class="gt_row gt_center">80 (6.5%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Unknown</td>
+      <td class="gt_row gt_center">3124</td>
+      <td class="gt_row gt_center">2435</td>
+      <td class="gt_row gt_center">109</td>
+      <td class="gt_row gt_center">371</td>
+      <td class="gt_row gt_center">209</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Age at ED visit</td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+      <td class="gt_row gt_center"></td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">[ 0, 6)</td>
+      <td class="gt_row gt_center">1065 (5.7%)</td>
+      <td class="gt_row gt_center">784 (5.6%)</td>
+      <td class="gt_row gt_center">34 (5.4%)</td>
+      <td class="gt_row gt_center">161 (6.4%)</td>
+      <td class="gt_row gt_center">86 (5.9%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">[ 6,12)</td>
+      <td class="gt_row gt_center">4685 (25%)</td>
+      <td class="gt_row gt_center">3868 (27%)</td>
+      <td class="gt_row gt_center">137 (22%)</td>
+      <td class="gt_row gt_center">445 (18%)</td>
+      <td class="gt_row gt_center">235 (16%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">[12,18)</td>
+      <td class="gt_row gt_center">12902 (69%)</td>
+      <td class="gt_row gt_center">9416 (67%)</td>
+      <td class="gt_row gt_center">453 (73%)</td>
+      <td class="gt_row gt_center">1906 (76%)</td>
+      <td class="gt_row gt_center">1127 (78%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Social Deprivation Index (SDI) score</td>
+      <td class="gt_row gt_center">92 (69, 99)</td>
+      <td class="gt_row gt_center">94 (72, 99)</td>
+      <td class="gt_row gt_center">90 (69, 98)</td>
+      <td class="gt_row gt_center">87 (58, 98)</td>
+      <td class="gt_row gt_center">87 (56, 98)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Unknown</td>
+      <td class="gt_row gt_center">248</td>
+      <td class="gt_row gt_center">191</td>
+      <td class="gt_row gt_center">11</td>
+      <td class="gt_row gt_center">32</td>
+      <td class="gt_row gt_center">14</td>
+    </tr>
+    <tr class="gt_group_heading_row">
+      <td colspan="6" class="gt_group_heading" style="font-weight: bold;">Primary mental health diagnoses of interest</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Anxiety Disorders</td>
+      <td class="gt_row gt_center">2015 (11%)</td>
+      <td class="gt_row gt_center">1464 (10%)</td>
+      <td class="gt_row gt_center">80 (13%)</td>
+      <td class="gt_row gt_center">296 (12%)</td>
+      <td class="gt_row gt_center">175 (12%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Autism Spectrum Disorder</td>
+      <td class="gt_row gt_center">528 (2.8%)</td>
+      <td class="gt_row gt_center">370 (2.6%)</td>
+      <td class="gt_row gt_center">14 (2.2%)</td>
+      <td class="gt_row gt_center">76 (3.0%)</td>
+      <td class="gt_row gt_center">68 (4.7%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Depressive Disorders</td>
+      <td class="gt_row gt_center">3316 (18%)</td>
+      <td class="gt_row gt_center">2590 (18%)</td>
+      <td class="gt_row gt_center">105 (17%)</td>
+      <td class="gt_row gt_center">443 (18%)</td>
+      <td class="gt_row gt_center">178 (12%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Feeding and Eating Disorders</td>
+      <td class="gt_row gt_center">168 (0.9%)</td>
+      <td class="gt_row gt_center">108 (0.8%)</td>
+      <td class="gt_row gt_center">12 (1.9%)</td>
+      <td class="gt_row gt_center">32 (1.3%)</td>
+      <td class="gt_row gt_center">16 (1.1%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Schizophrenia Spectrum and Other Psychotic Disorders</td>
+      <td class="gt_row gt_center">284 (1.5%)</td>
+      <td class="gt_row gt_center">219 (1.6%)</td>
+      <td class="gt_row gt_center">10 (1.6%)</td>
+      <td class="gt_row gt_center">35 (1.4%)</td>
+      <td class="gt_row gt_center">20 (1.4%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Suicide or Self-Injury</td>
+      <td class="gt_row gt_center">2657 (14%)</td>
+      <td class="gt_row gt_center">1874 (13%)</td>
+      <td class="gt_row gt_center">83 (13%)</td>
+      <td class="gt_row gt_center">465 (19%)</td>
+      <td class="gt_row gt_center">235 (16%)</td>
+    </tr>
+    <tr>
+      <td class="gt_row gt_left">Substance Abuse and Addictive Disorders</td>
+      <td class="gt_row gt_center">1269 (6.8%)</td>
+      <td class="gt_row gt_center">932 (6.6%)</td>
+      <td class="gt_row gt_center">54 (8.7%)</td>
+      <td class="gt_row gt_center">185 (7.4%)</td>
+      <td class="gt_row gt_center">98 (6.8%)</td>
+    </tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="6">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          Statistics presented: n (column %); median (IQR)
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table></div>
+</body>
+</html>

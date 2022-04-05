@@ -1,0 +1,17 @@
+---
+title: "<br><br>Pediatric mental health emergencies across three waves of the COVID-19 pandemic in New York City"
+output:
+  html_document:
+    css: styles.css
+    includes:
+      before_body: footer.html
+---
+
+<br><br>
+<b>Abstract</b>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+
+<a href="https://simmwill.github.io/files/tbl_1.html" style="color:#000000; text-decoration: none">Click here to see Table 1.</a>
+
+<a href="https://simmwill.github.io/files/tbl_2.html" style="color:#000000; text-decoration: none">Click here to see Table 2.</a>
