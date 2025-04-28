@@ -14,6 +14,6 @@ editor_options:
 
 <br>
 
-Hi! I'm a biostatistician and statistical programmer with an interest in quantifying environment-health interactions. I'm currently a Research Biostatistician II at [Weill Cornell Medicine](https://phs.weill.cornell.edu/directory/profiles/will-simmons) in New York City, where my research ranges from COVID-19 sequelae to pediatric epilepsy.
+Hi! I'm a biostatistician and statistical programmer with an interest in quantifying environment-health interactions. I'm currently a Research Biostatistician at [Weill Cornell Medicine](https://phs.weill.cornell.edu/directory/profiles/will-simmons) in New York City.
 
 I have a master's degree from Columbia University's Departments of Epidemiology and Biostatistics. While I was there, I was part of two research groups: the National Birth Defects Prevention Study ([NBDPS](https://www.cdc.gov/ncbddd/birthdefects/nbdps.html)), and the International Research Institute for Climate and Society ([IRI](https://iri.columbia.edu/)), part of the [Earth Institute](https://www.earth.columbia.edu).
